@@ -52,7 +52,7 @@
 
 **[ 어플 메인 화면 ]**
 
-<img alt="메인화면" src="./readme_assets/main.jpg" height=400>
+<img alt="메인화면" src="./readme_assets/main.png" height=400>
 
 **[ 어플 용기 정보 ]**
 
