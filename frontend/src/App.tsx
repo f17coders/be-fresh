@@ -33,16 +33,15 @@ const customTheme = extendTheme({
 
 // fcm 정보
 const config = {
-  apiKey: "AIzaSyBuOsxURszu98gju5eopPd9Geid9NNDRx4",
-  authDomain: "be-fresh-421400.firebaseapp.com",
-  projectId: "be-fresh-421400",
-  storageBucket: "be-fresh-421400.appspot.com",
-  messagingSenderId: "860279932394",
-  appId: "1:860279932394:web:6991c2879ff69b04719e93",
+  apiKey: import.meta.env.VITE_APP_API_KEY,
+  authDomain: import.meta.env.VITE_APP_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_APP_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_APP_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_APP_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_APP_ID,
 };
 // valid key
-const vapidKey =
-  "BJF1SSaQl6V23ngpxir8HC3FdZbu19PlMNbCgwram2XDFvF7az_V-cCUZ4LInD_ZLiLIK7wAF6q-TxZUmLlnRpw";
+const vapidKey = import.meta.env.VITE_APP_VAPID_KEY
 
 const App = () => {
   // 서비스 워커 등록
